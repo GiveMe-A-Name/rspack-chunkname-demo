@@ -5,13 +5,13 @@
       "assets": [
         {
           "name": "main.js",
-          "size": 303001
+          "size": 303752
         }
       ],
       "chunks": [
         "main"
       ],
-      "assetsSize": 303001
+      "assetsSize": 303752
     }
   },
   "namedChunkGroups": {
@@ -20,13 +20,13 @@
       "assets": [
         {
           "name": "main.js",
-          "size": 303001
+          "size": 303752
         }
       ],
       "chunks": [
         "main"
       ],
-      "assetsSize": 303001
+      "assetsSize": 303752
     }
   }
 }
