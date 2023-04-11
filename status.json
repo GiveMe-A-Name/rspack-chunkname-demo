@@ -1,0 +1,32 @@
+{
+  "entrypoints": {
+    "main": {
+      "name": "main",
+      "assets": [
+        {
+          "name": "main.js",
+          "size": 303001
+        }
+      ],
+      "chunks": [
+        "main"
+      ],
+      "assetsSize": 303001
+    }
+  },
+  "namedChunkGroups": {
+    "main": {
+      "name": "main",
+      "assets": [
+        {
+          "name": "main.js",
+          "size": 303001
+        }
+      ],
+      "chunks": [
+        "main"
+      ],
+      "assetsSize": 303001
+    }
+  }
+}
