@@ -1,6 +1,6 @@
-import(/* webpackChunkName: "hello_1" */ "./Hello1").then((module) => {
+import(/* webpackChunkName: "user/[id]/page" */ "./Hello1").then((module) => {
   module.default();
 });
-import(/* webpackChunkName: "hello_2" */ "./Hello2").then((module) => {
+import(/* webpackChunkName: "redirect/page"" */ "./Hello2").then((module) => {
   module.default();
 });
