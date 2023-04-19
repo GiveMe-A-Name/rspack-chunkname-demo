@@ -1,32 +1,18 @@
 {
-  "hash": "d8053df177ded94d",
+  "hash": "b039cee85596838e",
   "publicPath": "auto",
   "outputPath": "/Users/qixuan/Works/demo/rspack-chunkname-demo/dist",
   "assets": [
     {
       "type": "asset",
       "name": "main.js",
-      "size": 4995,
+      "size": 4999,
       "chunks": [
         "main"
       ],
       "chunkNames": [
         "main"
       ],
-      "info": {
-        "development": false,
-        "hotModuleReplacement": false
-      },
-      "emitted": false
-    },
-    {
-      "type": "asset",
-      "name": "src_Hello2_js.js",
-      "size": 345,
-      "chunks": [
-        "src_Hello2_js"
-      ],
-      "chunkNames": [],
       "info": {
         "development": false,
         "hotModuleReplacement": false
@@ -46,11 +32,30 @@
         "hotModuleReplacement": false
       },
       "emitted": false
+    },
+    {
+      "type": "asset",
+      "name": "redirect/page.js",
+      "size": 336,
+      "chunks": [
+        "redirect/page"
+      ],
+      "chunkNames": [
+        "redirect/page"
+      ],
+      "info": {
+        "development": false,
+        "hotModuleReplacement": false
+      },
+      "emitted": false
     }
   ],
   "assetsByChunkName": {
     "main": [
       "main.js"
+    ],
+    "redirect/page": [
+      "redirect/page.js"
     ]
   },
   "chunks": [
@@ -70,20 +75,22 @@
     {
       "type": "chunk",
       "files": [
-        "src_Hello1_js.js"
+        "redirect/page.js"
       ],
-      "id": "src_Hello1_js",
+      "id": "redirect/page",
       "entry": false,
       "initial": false,
-      "names": [],
+      "names": [
+        "redirect/page"
+      ],
       "size": 51
     },
     {
       "type": "chunk",
       "files": [
-        "src_Hello2_js.js"
+        "src_Hello1_js.js"
       ],
-      "id": "src_Hello2_js",
+      "id": "src_Hello1_js",
       "entry": false,
       "initial": false,
       "names": [],
@@ -96,13 +103,13 @@
       "assets": [
         {
           "name": "main.js",
-          "size": 4995
+          "size": 4999
         }
       ],
       "chunks": [
         "main"
       ],
-      "assetsSize": 4995
+      "assetsSize": 4999
     }
   },
   "namedChunkGroups": {
@@ -111,13 +118,26 @@
       "assets": [
         {
           "name": "main.js",
-          "size": 4995
+          "size": 4999
         }
       ],
       "chunks": [
         "main"
       ],
-      "assetsSize": 4995
+      "assetsSize": 4999
+    },
+    "redirect/page": {
+      "name": "redirect/page",
+      "assets": [
+        {
+          "name": "redirect/page.js",
+          "size": 336
+        }
+      ],
+      "chunks": [
+        "redirect/page"
+      ],
+      "assetsSize": 336
     }
   }
 }
