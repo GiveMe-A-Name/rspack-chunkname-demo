@@ -1,4 +1,95 @@
 {
+  "hash": "fa2910af059dd102",
+  "publicPath": "auto",
+  "outputPath": "/Users/qixuan/Works/demo/rspack-chunkname-demo/dist",
+  "assets": [
+    {
+      "type": "asset",
+      "name": "main.js",
+      "size": 303652,
+      "chunks": [
+        "main"
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "info": {
+        "development": false,
+        "hotModuleReplacement": false
+      },
+      "emitted": false
+    },
+    {
+      "type": "asset",
+      "name": "src_Hello2_js.js",
+      "size": 493,
+      "chunks": [
+        "src_Hello2_js"
+      ],
+      "chunkNames": [],
+      "info": {
+        "development": false,
+        "hotModuleReplacement": false
+      },
+      "emitted": false
+    },
+    {
+      "type": "asset",
+      "name": "src_Hello1_js.js",
+      "size": 493,
+      "chunks": [
+        "src_Hello1_js"
+      ],
+      "chunkNames": [],
+      "info": {
+        "development": false,
+        "hotModuleReplacement": false
+      },
+      "emitted": false
+    }
+  ],
+  "assetsByChunkName": {
+    "main": [
+      "main.js"
+    ]
+  },
+  "chunks": [
+    {
+      "type": "chunk",
+      "files": [
+        "main.js"
+      ],
+      "id": "main",
+      "entry": true,
+      "initial": true,
+      "names": [
+        "main"
+      ],
+      "size": 208222
+    },
+    {
+      "type": "chunk",
+      "files": [
+        "src_Hello1_js.js"
+      ],
+      "id": "src_Hello1_js",
+      "entry": false,
+      "initial": false,
+      "names": [],
+      "size": 51
+    },
+    {
+      "type": "chunk",
+      "files": [
+        "src_Hello2_js.js"
+      ],
+      "id": "src_Hello2_js",
+      "entry": false,
+      "initial": false,
+      "names": [],
+      "size": 51
+    }
+  ],
   "entrypoints": {
     "main": {
       "name": "main",
