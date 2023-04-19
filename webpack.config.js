@@ -5,6 +5,9 @@ module.exports = {
   entry: {
     main: "./src/index.js",
   },
+  output: {
+    clean: true,
+  },
   module: {
     rules: [
       {

@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "rspack serve",
     "dev:webpack": "webpack",
-    "build": "rspack build"
+    "build": "rm -rf dist && rspack build",
+    "build:webpack": "webpack"
   },
   "dependencies": {
     "react": "^18.2.0",

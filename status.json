@@ -1,12 +1,12 @@
 {
-  "hash": "fa2910af059dd102",
+  "hash": "d8053df177ded94d",
   "publicPath": "auto",
   "outputPath": "/Users/qixuan/Works/demo/rspack-chunkname-demo/dist",
   "assets": [
     {
       "type": "asset",
       "name": "main.js",
-      "size": 303652,
+      "size": 4995,
       "chunks": [
         "main"
       ],
@@ -22,7 +22,7 @@
     {
       "type": "asset",
       "name": "src_Hello2_js.js",
-      "size": 493,
+      "size": 345,
       "chunks": [
         "src_Hello2_js"
       ],
@@ -36,7 +36,7 @@
     {
       "type": "asset",
       "name": "src_Hello1_js.js",
-      "size": 493,
+      "size": 345,
       "chunks": [
         "src_Hello1_js"
       ],
@@ -65,7 +65,7 @@
       "names": [
         "main"
       ],
-      "size": 208222
+      "size": 205
     },
     {
       "type": "chunk",
@@ -96,13 +96,13 @@
       "assets": [
         {
           "name": "main.js",
-          "size": 303652
+          "size": 4995
         }
       ],
       "chunks": [
         "main"
       ],
-      "assetsSize": 303652
+      "assetsSize": 4995
     }
   },
   "namedChunkGroups": {
@@ -111,13 +111,13 @@
       "assets": [
         {
           "name": "main.js",
-          "size": 303652
+          "size": 4995
         }
       ],
       "chunks": [
         "main"
       ],
-      "assetsSize": 303652
+      "assetsSize": 4995
     }
   }
 }
